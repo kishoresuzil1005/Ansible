@@ -73,21 +73,13 @@ pip3 install --user ansible
 ```
 ansible --version
 ```
-# Ansible Architecture
 
-System Admin
-    |
-    v
-Configuration Manager (Ansible)
-    |
-    v
-+-----------------+
-|  OS Platforms  |
-|--------------- |
-|  - Linux      |
-|  - Windows    |
-|  - macOS      |
-+-----------------+
-    |
-    v
-Application / Services
+```mermaid
+graph TD;
+    A[System Admin] -->|Uses| B[Configuration Manager (Ansible)];
+    B -->|Manages| C[Operating Systems];
+    C -->|Supports| D[Linux];
+    C -->|Supports| E[Windows];
+    C -->|Supports| F[macOS];
+    C -->|Deploys| G[Applications & Services];
+
