@@ -15,16 +15,16 @@ ansible-galaxy init <role_name>
 
 ```mermaid
     graph TD;
-    A[Ansible Role]
-    A --> B[defaults]
-    A --> C[files]
-    A --> D[handlers]
-    A --> E[meta]
-    A --> F[README.md]
-    A --> G[tasks]
-    A --> H[templates]
-    A --> I[tests]
-    A --> J[vars]
+    A[Ansible Role];
+    A --> B[defaults];
+    A --> C[files];
+    A --> D[handlers];
+    A --> E[meta];
+    A --> F[README.md];
+    A --> G[tasks];
+    A --> H[templates];
+    A --> I[tests];
+    A --> J[vars];
 
 ### task : 
     In they task directory contain list of action we wnats to exqute
