@@ -14,7 +14,7 @@ A Configuration Management System (CMS) is a set of tools and processes used to 
 
 1. Ansible – Agentless, uses SSH for automation.
 2. Puppet – Uses declarative language, good for large infrastructures.
-3. hef – Uses Ruby-based DSL, ideal for complex automation.
+3. chef – Uses Ruby-based DSL, ideal for complex automation.
 4. SaltStack – Fast and scalable, uses a master-minion architecture.
 
 
