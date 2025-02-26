@@ -64,14 +64,12 @@ ansible-playbook -i inventory.ini <playbook_name>.yml --vault-password-file vaul
 
 ## **5. Difference Between Built-in and Collection Modules**
 
-```md
 | Feature           | Built-in Ansible Modules         | Ansible Collections          |
 |------------------|--------------------------------|-----------------------------|
 | **Installation** | Comes pre-installed with Ansible | Needs to be installed separately |
 | **Maintenance**  | Managed by Ansible Core Team   | Maintained by Red Hat, vendors, or the community |
 | **Scope**       | Basic automation (files, services, users) | Advanced automation (cloud, networking, security) |
 | **Examples**    | `copy`, `file`, `debug`, `service` | `amazon.aws.ec2_instance`, `kubernetes.core` |
-```
 
 ## **6. Inventory File Usage**
 
