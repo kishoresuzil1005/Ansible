@@ -39,11 +39,6 @@ A Configuration Management System (CMS) is a set of tools and processes used to 
 
 ## Step-by-Step Guide to Ansible
 
-### 1️⃣ What is Ansible?
-
-
-Ansible is an agentless configuration management and automation tool that helps you manage servers, deploy applications, and automate tasks using simple YAML-based playbooks.
-
 ## Install Ansible with pip
 
 ###  Step 1: Install Python and pip (if not installed)
@@ -73,6 +68,21 @@ pip3 install --user ansible
 ```
 ansible --version
 ```
+## What is Ansible?  
+**Ansible** is an open-source **automation tool** used for:  
+- **Configuration management**  
+- **Application deployment**  
+- **Infrastructure provisioning**  
+
+It simplifies IT automation using **YAML-based playbooks**, reducing manual intervention.
+
+## Key Features  
+- **Agentless** – No need to install agents on managed nodes.  
+- **Uses SSH** – Securely connects to remote systems.  
+- **Declarative & Idempotent** – Ensures desired state without unnecessary changes.  
+- **Scalable** – Manages thousands of nodes easily.  
+- **Extensible** – Supports modules, plugins, and roles.  
+
 ## Introduction  
 Ansible is a key tool used to automate deployments, monitor strategy, and ensure system scale.
 
