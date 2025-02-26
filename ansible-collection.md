@@ -59,12 +59,14 @@ ansible-vault create group_vars/all/pass.yml --vault-password-file vault.pass
     ``` 
         ansible-playboook -i inventory.ini <name of they json file> --vault-password-file <name of they password generated file>
 
-| Feature         | Built-in Git Code (Internals) | Git Collections (External Libraries) |
-|---------------|----------------------|-------------------------|
-| **Installation** | Comes with Git source code | Needs to be installed separately |
-| **Maintenance** | Managed by Git Core Team | Maintained by third-party developers |
-| **Scope** | Core Git functionalities in C | Integrations for other languages |
-| **Examples** | `git_commit_create()`, `git_clone()` (in C) | `GitPython`, `JGit`, `NodeGit` |
+### diff between they build in  and collection 
+
+        | Feature         | Built-in Git Code (Internals) | Git Collections (External Libraries) |
+        |---------------|----------------------|-------------------------|
+        | **Installation** | Comes with Git source code | Needs to be installed separately |
+        | **Maintenance** | Managed by Git Core Team | Maintained by third-party developers |
+        | **Scope** | Core Git functionalities in C | Integrations for other languages |
+        | **Examples** | `git_commit_create()`, `git_clone()` (in C) | `GitPython`, `JGit`, `NodeGit` |
 
 In they inventory file we use to group they users:
             group_vars/all/<group_name>.yaml
