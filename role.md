@@ -11,8 +11,8 @@ Use the following command to create a new Ansible role:
 
 ```bash
 ansible-galaxy init <role_name>
+```
 
-    ```
 ```mermaid
     graph TD;
     A[Ansible Role]
