@@ -73,6 +73,22 @@ pip3 install --user ansible
 ```
 ansible --version
 ```
+## Introduction  
+Ansible is a key tool used to automate deployments, monitor strategy, and ensure system scale.
+
+## Role of Ansible  
+Using Ansible, we can:  
+- Provision infrastructure  
+- Manage configurations  
+- Deploy applications  
+- Enable network automation  
+
+## System Administration and Configuration Management  
+A **System Administrator** uses a **Configuration Manager** like Ansible to manage:  
+- **Operating Systems:**  
+  - Linux  
+  - Windows  
+  - macOS 
 
 ```mermaid
 graph TD;
