@@ -82,7 +82,7 @@ graph TD;
     C -->E["Windows"];
     C -->F["macOS"];
     C -->F["debian"];
-    C -->F["alpine];
+    C -->F["alpine"];
     C -->F["Amozon Linux"];
     C -->F["Red Hat"];
     C -->F["suse Hat"];
