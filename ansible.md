@@ -17,18 +17,60 @@ A Configuration Management System (CMS) is a set of tools and processes used to 
 3. hef – Uses Ruby-based DSL, ideal for complex automation.
 4. SaltStack – Fast and scalable, uses a master-minion architecture.
 
+
+## Differences Between Puppet, Chef, and Ansible
+
+| Feature           | Puppet 🟣 | Chef 🔴 | Ansible 🟢 |
+|------------------|----------|--------|----------|
+| **Developed By**  | Puppet Labs | Progress (formerly Opscode) | Red Hat |
+| **Language Used** | Puppet DSL (Ruby-based) | Ruby (DSL) | YAML (Playbooks) |
+| **Agent-Based?**  | **Yes** (Master-Agent) | **Yes** (Master-Agent) | **No** (Agentless, uses SSH) |
+| **Ease of Use**   | Moderate (Requires Learning DSL) | Complex (Ruby Knowledge Required) | Easy (Simple YAML syntax) |
+| **Installation**  | Requires Puppet Master & Agents | Requires Chef Server, Workstation, and Nodes | No agents, uses SSH & WinRM |
+| **Configuration Type** | **Declarative** (Defines desired state) | **Declarative + Imperative** (More flexibility) | **Declarative** |
+| **Performance**   | Faster than Chef, but requires agents | Slower due to client-server overhead | Faster (Uses SSH, no extra agents) |
+| **Best for**      | Large-scale, complex infrastructure | Large enterprises with advanced automation needs | Quick, simple automation across systems |
+
+## Key Differences Between Puppet, Chef, and Ansible:
+
+Puppet & Chef use an agent-based model, while Ansible is agentless (uses SSH).
+Ansible is simpler (YAML-based), whereas Puppet & Chef require learning DSL or Ruby.
+Ansible is best for quick automation, while Puppet & Chef are better for large-scale infrastructure.
+
 ## Step-by-Step Guide to Ansible
 
-### 1️⃣ What is Ansible?1️
+### 1️⃣ What is Ansible?
+
 
 Ansible is an agentless configuration management and automation tool that helps you manage servers, deploy applications, and automate tasks using simple YAML-based playbooks.
 
-### Step 1: Install Ansible on Ubuntu
- 
-#### Update and Install Ansible
+## Install Ansible with pip
+
+###  Step 1: Install Python and pip (if not installed)
+
+Ensure you have Python and pip installed:
 
 ```
-
-sudo apt update -y
-sudo apt install ansible -y 
+sudo apt update
+sudo apt install -y python3 python3-pip
 ```
+Verify installation:
+
+```
+python3 --version
+pip3 --version
+```
+
+### Step 2: Install Ansible using pip
+
+Now, install Ansible globally:
+
+```
+pip3 install --user ansible
+```
+### Step 3: Verify Ansible Installation
+
+```
+ansible --version
+```
+
