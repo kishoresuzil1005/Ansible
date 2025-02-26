@@ -12,6 +12,22 @@ Use the following command to create a new Ansible role:
 ```bash
 ansible-galaxy init <role_name>
 ```
+```
+<role_name>/
+  ├── defaults/
+  │   └── main.yml
+  ├── files/
+  ├── handlers/
+  │   └── main.yml
+  ├── meta/
+  │   └── main.yml
+  ├── tasks/
+  │   └── main.yml
+  ├── templates/
+  ├── vars/
+      └── main.yml
+```
+
 ## Key Components of an Ansible Role
 
 ### Tasks
@@ -48,21 +64,7 @@ Custom lookup plugins for the role.
 
 An Ansible role follows a specific directory structure:
 
-```
-<role_name>/
-  ├── defaults/
-  │   └── main.yml
-  ├── files/
-  ├── handlers/
-  │   └── main.yml
-  ├── meta/
-  │   └── main.yml
-  ├── tasks/
-  │   └── main.yml
-  ├── templates/
-  ├── vars/
-      └── main.yml
-```
+
 
 ## Why Use Ansible Roles?
 
