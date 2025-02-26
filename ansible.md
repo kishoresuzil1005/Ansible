@@ -73,7 +73,6 @@ pip3 install --user ansible
 ```
 ansible --version
 ```
-
 # Ansible Architecture
 
 System Admin
