@@ -26,3 +26,7 @@ Ansible is an agentless configuration management and automation tool that helps 
 ### Step 1: Install Ansible on Ubuntu
  
 #### Update and Install Ansible
+
+''' 
+sudo apt update -y
+sudo apt install ansible -y '''
