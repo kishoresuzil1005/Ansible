@@ -98,7 +98,7 @@ Using Ansible, we can:
 ```mermaid
 graph TD;
     A["System Admin"] -->|Uses| B["Configuration Manager (Ansible)"];
-    B -->|Manages| C["Operating Systems"];
+    B -->|contorl node| C["manage node"];
     C -->D["Linux"];
     C -->E["Windows"];
     C -->f["macOS"];
