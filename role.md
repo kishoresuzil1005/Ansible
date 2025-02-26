@@ -25,3 +25,6 @@ ansible-galaxy init <role_name>
     A --> H[templates]
     A --> I[tests]
     A --> J[vars]
+
+### task : 
+    In they task directory contain list of action we wnats to exqute
