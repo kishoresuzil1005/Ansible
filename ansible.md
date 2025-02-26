@@ -16,3 +16,13 @@ A Configuration Management System (CMS) is a set of tools and processes used to 
 2. Puppet – Uses declarative language, good for large infrastructures.
 3. hef – Uses Ruby-based DSL, ideal for complex automation.
 4. SaltStack – Fast and scalable, uses a master-minion architecture.
+
+## Step-by-Step Guide to Ansible
+
+### 1️⃣ What is Ansible?1️
+
+Ansible is an agentless configuration management and automation tool that helps you manage servers, deploy applications, and automate tasks using simple YAML-based playbooks.
+
+### Step 1: Install Ansible on Ubuntu
+ 
+#### Update and Install Ansible
