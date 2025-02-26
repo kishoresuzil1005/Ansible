@@ -25,6 +25,8 @@ Allows the playbook to continue execution even if a task fails.
 
  Custom conditions to determine when a task should be marked as failed.
 🔹 Example: Fails only if the return code is not 0 or 1
+### 🔹 Example:
+
 
 ```
 - name: Check disk space
@@ -35,6 +37,8 @@ Allows the playbook to continue execution even if a task fails.
 ### ✅ Use Case → When you want more control over what is considered a failure.
 
 ### 3️⃣ Force Failure (fail Module)
+
+### 🔹 Example:
 
 Explicitly fails a playbook with a custom error message.
 🔹 Example:
