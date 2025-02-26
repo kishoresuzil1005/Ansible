@@ -97,8 +97,8 @@ Using Ansible, we can:
 
 ```mermaid
 graph TD;
-    A["System Admin"] -->|Uses| B["Configuration Manager (Ansible)"];
-    B -->|contorl node| C["manage node"];
+    A["System Admin"] -->|Uses| B["Configuration Manager (Ansible) (control node)"];
+    B -->C["manage node"];
     C -->D["Linux"];
     C -->E["Windows"];
     C -->f["macOS"];
