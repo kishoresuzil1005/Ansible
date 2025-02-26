@@ -76,10 +76,9 @@ ansible --version
 
 ```mermaid
 graph TD;
-    A[System Admin] -->|Uses| B[Configuration Manager (Ansible)];
-    B -->|Manages| C[Operating Systems];
-    C -->|Supports| D[Linux];
-    C -->|Supports| E[Windows];
-    C -->|Supports| F[macOS];
-    C -->|Deploys| G[Applications & Services];
-
+    A["System Admin"] -->|Uses| B["Configuration Manager (Ansible)"];
+    B -->|Manages| C["Operating Systems"];
+    C -->|Supports| D["Linux"];
+    C -->|Supports| E["Windows"];
+    C -->|Supports| F["macOS"];
+    C -->|Deploys| G["Applications & Services"];
