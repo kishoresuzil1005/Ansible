@@ -84,11 +84,6 @@ Using Ansible, we can:
 - Enable network automation  
 
 ## System Administration and Configuration Management  
-A **System Administrator** uses a **Configuration Manager** like Ansible to manage:  
-- **Operating Systems:**  
-  - Linux  
-  - Windows  
-  - macOS 
 
 ```mermaid
 graph TD;
