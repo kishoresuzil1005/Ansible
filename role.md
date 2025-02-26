@@ -1,15 +1,17 @@
 
+# Role
 
-  # role:
+In Ansible, you might write 100–200 lines of configuration code (or even more). To keep things organized and maintainable, you can use **roles**. Roles let you structure your tasks, handlers, variables, and more into separate folders, making it easier to understand and reuse your automation code.
 
+---
 
-    In ansible we will write a more they 100 -200 lines of code to organise those lines by using they roles to understand they code easier 
+## Creating a Role
 
+Use the following command to create a new Ansible role:
 
-## To create they role by using 
-    
-    ```
-    ansible-galaxy init <filename>
+```bash
+ansible-galaxy init <role_name>
+
     ```
 ```mermaid
     graph TD;
