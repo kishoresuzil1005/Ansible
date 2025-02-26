@@ -33,9 +33,9 @@ A Configuration Management System (CMS) is a set of tools and processes used to 
 
 ## Key Differences Between Puppet, Chef, and Ansible:
 
-Puppet & Chef use an agent-based model, while Ansible is agentless (uses SSH).
-Ansible is simpler (YAML-based), whereas Puppet & Chef require learning DSL or Ruby.
-Ansible is best for quick automation, while Puppet & Chef are better for large-scale infrastructure.
+1. Puppet & Chef use an agent-based model, while Ansible is agentless (uses SSH).
+2. Ansible is simpler (YAML-based), whereas Puppet & Chef require learning DSL or Ruby.
+3. Ansible is best for quick automation, while Puppet & Chef are better for large-scale infrastructure.
 
 ## Step-by-Step Guide to Ansible
 
@@ -74,3 +74,21 @@ pip3 install --user ansible
 ansible --version
 ```
 
+# Ansible Architecture
+
+System Admin
+    |
+    v
+Configuration Manager (Ansible)
+    |
+    v
++-----------------+
+|  OS Platforms  |
+|--------------- |
+|  - Linux      |
+|  - Windows    |
+|  - macOS      |
++-----------------+
+    |
+    v
+Application / Services
