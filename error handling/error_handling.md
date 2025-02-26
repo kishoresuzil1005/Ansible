@@ -21,6 +21,7 @@ Allows the playbook to continue execution even if a task fails.
 ```
 ### ✅ Use Case → When a failure is not critical, and the playbook should continue.
 
+
 ## 2️⃣ Fail Fast (failed_when):
 
  Custom conditions to determine when a task should be marked as failed.
@@ -35,6 +36,7 @@ Allows the playbook to continue execution even if a task fails.
   failed_when: disk_usage.stdout | int > 90
 ```
 ### ✅ Use Case → When you want more control over what is considered a failure.
+
 
 ### 3️⃣ Force Failure (fail Module)
 
