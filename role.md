@@ -26,5 +26,6 @@ ansible-galaxy init <role_name>
     A --> I[tests];
     A --> J[vars];
 
-### task : 
-    In they task directory contain list of action we wnats to exqute
+## Tasks
+
+In the **tasks** directory, you define the list of actions (or “tasks”) that Ansible should execute on your managed hosts. Each task typically calls an Ansible module (e.g., `apt`, `service`, `copy`) to perform a specific action, such as installing a package or starting a service.
