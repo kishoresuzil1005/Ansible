@@ -1,4 +1,5 @@
 ### yaml:
+
         YAML because it is easier for humans to read and write than other common data formats like XML or JSON. Further, there are libraries available in most programming languages for working with YAML.
 
 ## YAML Syntax
