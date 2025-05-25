@@ -39,7 +39,7 @@ ssh-copy-id -f -o IndentityFile=<Add they path of they key> ubuntu@<Add they ip 
  or using 
 
  ```
- ssh-copy-id -i ~/keys/keys.pub ubuntu@98.81.59.209
+ ssh -i keypath os name @ ip address
 ```
 
 ### if its ask they publickey:
